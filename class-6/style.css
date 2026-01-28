@@ -1,0 +1,16 @@
+h1, a {
+        color:red;
+    }
+    p{
+        font-size: 20px;
+        text-decoration:none;
+        font-weight: bold;
+    }
+
+    spam{
+        font-style: italic;
+        font-weight: bold;
+        color: green;
+
+    }
+    
