@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 750px;
+  height: 750px;
+  border: 6px solid black;
+  position: relative;
+  overflow: hidden;
+}
+
+.friends-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container {
+  height: 750px;
+}
+
+
+/* Make image cover full box */
+.friends-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Dark overlay */
+.friends-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  color: white;
+  z-index: 1;
+}
+
+.content h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
