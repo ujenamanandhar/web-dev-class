@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 200vh; 
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: fixed;
+}
+
+/* Top Left */
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+/* Top Right */
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+/* Bottom Left */
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+/* Bottom Right */
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: black;
+}
